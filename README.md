@@ -80,6 +80,6 @@ Principalmente para mí, pero puede servir a:
 
 Este repositorio es un sistema vivo: irá evolucionando.
 
-📍 Para más detalle, ver: `REPO_MAP.md`.
+📍 Para más detalle, ver: [`REPO_MAP.md`](REPO_MAP.md).
 
 ---
