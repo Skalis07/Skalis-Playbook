@@ -1,6 +1,6 @@
 # 📘 Skalis Playbook
 
-Mi playbook personal de ingeniería: **workflows, checklists y prompts** para construir proyectos de forma profesional desde la idea hasta el lanzamiento.
+Mi playbook personal de ingeniería: **workflows, checklists y prompts** para construir proyectos de forma profesional, desde la idea hasta el lanzamiento.
 
 > Para el detalle de carpetas/archivos ver: [`REPO_MAP.md`](REPO_MAP.md).
 
