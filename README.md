@@ -1,85 +1,45 @@
 # 📘 Skalis Playbook
 
-Mi playbook personal de ingeniería: prompts, checklists y workflows para construir proyectos de forma profesional — desde idea hasta release.
+Mi playbook personal de ingeniería: **workflows, checklists y prompts** para construir proyectos de forma profesional — desde idea hasta release.
+
+> Para el detalle de carpetas/archivos ver: [`REPO_MAP.md`](REPO_MAP.md).
 
 ---
 
-## 🎯 ¿Qué es esto?
+## 🚀 Cómo empezar (orden recomendado)
 
-Este repositorio contiene mi **sistema de ejecución de proyectos**.
-
-Es una guía práctica que uso para planificar, construir, validar y entregar proyectos con un estándar consistente, independiente del stack (frontend, backend, full-stack, data, bots, CLI tools, librerías, etc.).
-
-La idea principal es simple:
-
-> **Hitos pequeños, entregables claros, QA constante y progreso estable.**
+1) **Diseña el proyecto y define el stack** → [`CREAR-PROYECTO.md`](CREAR-PROYECTO.md)  
+2) **Planifica y ejecuta por fases/hitos** → [`MANAGER.md`](MANAGER.md)  
+3) **Usa los prompts reutilizables** → [`prompts/`](prompts/)
 
 ---
 
-## 📦 ¿Qué contiene?
+## 🧩 Qué incluye este repositorio
 
-- **`MANAGER.md`**  
-  Documento principal del repositorio.  
-  Es mi “prompt/guía Manager todo terreno”, con formato por **fases → hitos**, DoD, Golden Paths (QA manual), rollback conceptual y apéndices opcionales (GitHub/PR/CI/CD/deploy/observabilidad).
+- **[`CREAR-PROYECTO.md`](CREAR-PROYECTO.md)**  
+  Bootstrapper para crear o reestructurar un proyecto: objetivo, alcance, supuestos, stack por capas, estructura inicial del repo y baseline de calidad.
 
-- **`prompts/code/comentar-codigo-didactico.md`**  
-  Prompt para comentar código con enfoque **didáctico, profundo y realista**, sin cambiar lógica, sin refactorizar y sin alterar formato.
+- **[`MANAGER.md`](MANAGER.md)**  
+  Framework operativo para ejecutar cualquier proyecto en formato **Fases → Hitos**, con QA constante (Golden Paths), DoD, riesgos/mitigación, rollback y métricas.
 
-- **`REPO_MAP.md`**  
+- **[`prompts/`](prompts/)**  
+  Prompts reutilizables (code review, debugging, documentación, etc.).
+
+- **[`REPO_MAP.md`](REPO_MAP.md)**  
   Mapa del repositorio: qué hace cada archivo/carpeta y para qué sirve.
 
-> Este repo crecerá con el tiempo con más templates y prompts.
-
 ---
 
-## 🧠 ¿Cómo lo uso?
+## ✅ Principios base
 
-Lo uso de dos formas:
-
-1) **Como framework de planificación**  
-   Uso `MANAGER.md` para dividir cualquier proyecto en fases e hitos pequeños, verificables y ordenados.
-
-2) **Como set de instrucciones para IA**  
-   Uso el contenido como prompt para trabajar con un **asistente de IA (LLM)** como si fuera:
-   - Mentor Técnico Senior
-   - Engineering Manager / Project Manager
-   - Arquitecto pragmático (solo cuando corresponde)
-
----
-
-## 👤 ¿Para quién es?
-
-Principalmente para mí, pero puede servir a:
-
-- desarrolladores armando proyectos de portafolio
-- personas que buscan orden
-- equipos pequeños que quieren checklists y estándares ligeros
-
----
-
-## 🧩 Principios base
-
-- **Claridad > complejidad**
-- **Iteración incremental > reescrituras gigantes**
-- **Base estable primero, extras después**
-- **QA manual (Golden Paths) siempre existe**
-- **Rollback es parte del plan**
+- **Hitos pequeños, 1 objetivo por entrega**
+- **QA manual constante (Golden Paths)**
+- **Rollback como parte del plan**
 - **Docs mínimas, pero útiles**
-
----
-
-## 🗂️ Estructura (en crecimiento)
-
-- `prompts/` → prompts reutilizables (code review, debugging, documentación, etc.)
-- `qa/` → checklists y golden paths (próximamente)
-- `templates/` → plantillas para proyectos (próximamente)
+- **Base estable primero, extras después**
 
 ---
 
 ## 📌 Estado
 
-Este repositorio es un sistema vivo: irá evolucionando.
-
-📍 Para más detalle, ver: [`REPO_MAP.md`](REPO_MAP.md).
-
----
+Repositorio vivo: irá creciendo con templates y utilidades.
