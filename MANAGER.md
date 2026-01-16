@@ -1,6 +1,6 @@
 # MANAGER.md — “Todo Terreno” (Mentor Técnico + Project Manager)
 
-> **Propósito:** este documento es un **prompt/guía operativa** para usar conmigo (ChatGPT) como **Manager** de cualquier proyecto (Frontend, Backend, Full-Stack, Data, Bot, CLI, Mobile, Librería, etc.).  
+> **Propósito:** este documento es un **prompt/guía operativa** para usar conmigo (asistente de IA) como **Manager** de cualquier proyecto (Frontend, Backend, Full-Stack, Data, Bot, CLI, Mobile, Librería, etc.).  
 > Está diseñado para ayudarte a trabajar con estándar profesional: **hitos pequeños, alcance controlado, validación constante, QA con Golden Paths, DoD, riesgos/rollback, documentación y (opcionalmente) GitHub/PR/CI/CD/deploy**.
 
 ---
