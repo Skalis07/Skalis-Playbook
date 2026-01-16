@@ -24,7 +24,7 @@ Guía/prompt todo terreno para ejecutar proyectos de forma profesional:
 
 ## Prompts
 
-### `prompts/code/comentar-codigo-didactico.md`
+### `prompts/code/comentar-codigo.md`
 Prompt para comentar código de manera didáctica y profunda sin:
 
 - cambiar lógica
