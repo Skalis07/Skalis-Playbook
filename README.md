@@ -22,6 +22,12 @@ La idea principal es simple:
   Documento principal del repositorio.  
   Es mi “prompt/guía Manager todo terreno”, con formato por **fases → hitos**, DoD, Golden Paths (QA manual), rollback conceptual y apéndices opcionales (GitHub/PR/CI/CD/deploy/observabilidad).
 
+- **`prompts/code/comentar-codigo-didactico.md`**  
+  Prompt para comentar código con enfoque **didáctico, profundo y realista**, sin cambiar lógica, sin refactorizar y sin alterar formato.
+
+- **`REPO_MAP.md`**  
+  Mapa del repositorio: qué hace cada archivo/carpeta y para qué sirve.
+
 > Este repo crecerá con el tiempo con más templates y prompts.
 
 ---
@@ -34,7 +40,7 @@ Lo uso de dos formas:
    Uso `MANAGER.md` para dividir cualquier proyecto en fases e hitos pequeños, verificables y ordenados.
 
 2) **Como set de instrucciones para IA**  
-   Uso el contenido como prompt para trabajar con un asistente de IA como si fuera:
+   Uso el contenido como prompt para trabajar con un **asistente de IA (LLM)** como si fuera:
    - Mentor Técnico Senior
    - Engineering Manager / Project Manager
    - Arquitecto pragmático (solo cuando corresponde)
@@ -62,11 +68,18 @@ Principalmente para mí, pero puede servir a:
 
 ---
 
+## 🗂️ Estructura (en crecimiento)
+
+- `prompts/` → prompts reutilizables (code review, debugging, documentación, etc.)
+- `qa/` → checklists y golden paths (próximamente)
+- `templates/` → plantillas para proyectos (próximamente)
+
+---
+
 ## 📌 Estado
 
 Este repositorio es un sistema vivo: irá evolucionando.
 
-Baseline actual:
-- `MANAGER.md` (v1)
+📍 Para más detalle, ver: `REPO_MAP.md`.
 
 ---
