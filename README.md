@@ -8,18 +8,18 @@ Mi playbook personal de ingeniería: **workflows, checklists y prompts** para co
 
 ## 🚀 Cómo empezar (orden recomendado)
 
-1) **Diseña el proyecto y define el stack** → [`CREAR-PROYECTO.md`](CREAR-PROYECTO.md)  
-2) **Planifica y ejecuta por fases/hitos** → [`MANAGER.md`](MANAGER.md)  
-3) **Usa los prompts reutilizables** → [`prompts/`](prompts/)
+1. **Diseña el proyecto y define el stack** → [`CREAR-PROYECTO.md`](00-CREAR-PROYECTO.md)
+2. **Planifica y ejecuta por fases/hitos** → [`MANAGER.md`](01-MANAGER.md)
+3. **Usa los prompts reutilizables** → [`prompts/`](prompts/)
 
 ---
 
 ## 🧩 Qué incluye este repositorio
 
-- **[`CREAR-PROYECTO.md`](CREAR-PROYECTO.md)**  
+- **[`CREAR-PROYECTO.md`](00-CREAR-PROYECTO.md)**  
   Bootstrapper para crear o reestructurar un proyecto: objetivo, alcance, supuestos, stack por capas, estructura inicial del repo y baseline de calidad.
 
-- **[`MANAGER.md`](MANAGER.md)**  
+- **[`MANAGER.md`](01-MANAGER.md)**  
   Framework operativo para ejecutar cualquier proyecto en formato **Fases → Hitos**, con QA constante (Golden Paths), DoD, riesgos/mitigación, rollback y métricas.
 
 - **[`prompts/`](prompts/)**  
