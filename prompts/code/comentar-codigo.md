@@ -36,11 +36,13 @@ Quiero que analices y comentes este código con un enfoque **DIDÁCTICO, PROFUND
   - nombres de variables/funciones
 
 ### Notas finales (opcional)
+
 Al final, puedes incluir una sección aparte llamada:
 
 `## Notas finales`
 
 Con máximo:
+
 - **10 bullets**
 - solo observaciones de:
   - riesgos reales
@@ -65,7 +67,7 @@ Con máximo:
   - cache / memo
   - errores silenciosos
   - compatibilidad
-  explica el motivo y el riesgo.
+    explica el motivo y el riesgo.
 
 ---
 
@@ -83,6 +85,7 @@ Quiero poder leer el código y entender:
 
 ## EJEMPLO DE REFERENCIA (ASÍ DEBE QUEDAR COMENTADO)
 
+```js
 /* -----------------------------------------------------------------------
    PLANIFICACIÓN SUAVIZADA DEL RECÁLCULO
    - Este bloque NO ejecuta el cálculo directamente.
@@ -93,7 +96,6 @@ Quiero poder leer el código y entender:
      • prevenir jank y layouts forzados
    ----------------------------------------------------------------------- */
 function schedule() {
-
   // Si ya hay un temporizador pendiente, noteamos que
   // llegó un nuevo evento (resize, observer, etc.)
   // y cancelamos el anterior.
@@ -106,7 +108,6 @@ function schedule() {
   // suficiente para agrupar eventos rápidos,
   // pero imperceptible para el usuario.
   debounceTimer = setTimeout(() => {
-
     // Si ya hay un requestAnimationFrame programado,
     // NO agendamos otro.
     // Esto evita múltiples cálculos en el mismo frame.
@@ -117,7 +118,6 @@ function schedule() {
     // - no fuerce layouts intermedios
     // - sea más eficiente que setTimeout directo
     rafId = requestAnimationFrame(computeAndApply);
-
   }, 40);
 }
 
@@ -127,8 +127,7 @@ function schedule() {
    - Disparan schedule(), NO el cálculo directo
    - Esto separa "detección" de "ejecución"
    ----------------------------------------------------------------------- */
-if (typeof ResizeObserver !== 'undefined') {
-
+if (typeof ResizeObserver !== "undefined") {
   // ResizeObserver es más preciso que window.resize:
   // detecta cambios reales del elemento, no solo de la ventana
   const ro = new ResizeObserver(schedule);
@@ -141,14 +140,14 @@ if (typeof ResizeObserver !== 'undefined') {
 // Fallback clásico:
 // algunos navegadores antiguos no soportan ResizeObserver,
 // así que escuchamos resize de la ventana.
-window.addEventListener('resize', schedule, { passive: true });
+window.addEventListener("resize", schedule, { passive: true });
 
 // Primera ejecución manual:
 // garantiza que el título se ajuste correctamente
 // al cargar la página, incluso sin eventos previos.
 requestAnimationFrame(schedule);
-
----
+```
 
 ## AQUÍ ESTÁ EL CÓDIGO A ANALIZAR:
+
 (pegas aquí el código)
